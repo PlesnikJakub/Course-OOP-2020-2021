@@ -17,11 +17,7 @@ int main()
 
     // get value
     std::cout << email1->GetFrom();
-    printf("%s \n", "A string");
-}
+    printf("%s \n", "\nA string");
 
-// Email
-// From 
-// To
-// Subject
-// Body
+    delete email1;
+}
