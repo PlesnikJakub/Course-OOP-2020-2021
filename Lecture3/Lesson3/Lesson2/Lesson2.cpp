@@ -10,6 +10,7 @@ int main()
     std::cout << "Hello World!\n";
 
     KeyValues* dictionary = new KeyValues(5);
+    
     dictionary->Create(1, 1.5);
     dictionary->Create(2, 8.5);
     dictionary->Create(3, 9.1);
@@ -18,11 +19,14 @@ int main()
 
     std::cout << dictionary->GetCount() << std::endl;
 
+    
     KeyValue* kvp = dictionary->Search(5);
     if (kvp != nullptr)
     {
         std::cout << kvp->GetValue();
     }
+
+    dictionary->Remove(3);
 
     delete dictionary;
 }

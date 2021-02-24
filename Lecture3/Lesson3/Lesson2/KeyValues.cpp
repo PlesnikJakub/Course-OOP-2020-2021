@@ -50,14 +50,17 @@ KeyValue* KeyValues::Remove(int k)
 			removedKey = this->keyValues[i];
 
 			// Assign the next element to current location.        
-			for (int j; j < this->count - 1; j++)
+			for (int j = i; j < this->count - 1; j++)
 			{     
 				this->keyValues[j] = this->keyValues[j + 1];
 			}
+
+			this->count -= 1;
+			return removedKey;
 		}
 	}
 
-	return removedKey;
+	return nullptr;
 }
 
 int KeyValues::GetCount()
