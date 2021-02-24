@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="KeyValue.cpp" />
+    <ClCompile Include="KeyValues.cpp" />
     <ClCompile Include="Lesson2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeyValue.h" />
+    <ClInclude Include="KeyValues.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
