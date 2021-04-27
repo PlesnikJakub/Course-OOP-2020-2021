@@ -4,6 +4,7 @@
 class KeyValues
 {
 private:
+	KeyValue* person;
 	KeyValue** keyValues;
 	int count;
 
