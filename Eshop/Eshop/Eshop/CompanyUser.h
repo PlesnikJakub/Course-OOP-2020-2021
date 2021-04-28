@@ -11,5 +11,7 @@ public:
 	CompanyUser(string email, string name, string password);
 	virtual string ToString();
 	virtual bool Login(string email, string password);
+	virtual string getUniqueIdentifier();
+	virtual string toString();
 };
 

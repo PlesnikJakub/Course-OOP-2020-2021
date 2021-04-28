@@ -6,10 +6,20 @@ CompanyUser::CompanyUser(string email, string name, string password) : AbstractR
 
 string CompanyUser::ToString()
 {
-	return "some user name";
+	return "Company User: " + this->getEmail() + " - " + this->getName();
 }
 
 bool CompanyUser::Login(string email, string password)
 {
-	return false;
+	return true;
+}
+
+string CompanyUser::getUniqueIdentifier()
+{
+	return this->getEmail();
+}
+
+string CompanyUser::toString()
+{
+	return "Company User: " + this->getEmail() + " - " + this->getName();
 }

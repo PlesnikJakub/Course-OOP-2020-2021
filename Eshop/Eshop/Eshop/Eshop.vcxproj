@@ -144,6 +144,7 @@
     <ClCompile Include="AbstractStringOutput.cpp" />
     <ClCompile Include="CompanyUser.cpp" />
     <ClCompile Include="Eshop.cpp" />
+    <ClCompile Include="Order.cpp" />
     <ClCompile Include="RegisteredUser.cpp" />
     <ClCompile Include="UnregisteredUser.cpp" />
   </ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="AbstractRegisteredCustomer.h" />
     <ClInclude Include="AbstractStringOutput.h" />
     <ClInclude Include="CompanyUser.h" />
+    <ClInclude Include="Order.h" />
     <ClInclude Include="RegisteredUser.h" />
     <ClInclude Include="UnregisteredUser.h" />
   </ItemGroup>

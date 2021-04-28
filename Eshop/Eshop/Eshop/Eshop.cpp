@@ -3,9 +3,19 @@
 
 #include <iostream>
 #include "CompanyUser.h"
+#include "Order.h"
 
 int main()
 {
-    CompanyUser* user = new CompanyUser();
+    CompanyUser* user = new CompanyUser("email","jakub","secretPassowrd");
+    AbstractRegisteredCustomer* absRegCustomer = user;
+    AbstractCustomer* absCustomer = user;
+
+    AbstractStringOutput* stringOutputCustomer = user;
+
     cout << user->ToString() << endl;
+
+    Order* order = new Order(user->ToString(), user, stringOutputCustomer);
+
+    CompanyUser* pd = dynamic_cast<CompanyUser*>(absCustomer);
 }
