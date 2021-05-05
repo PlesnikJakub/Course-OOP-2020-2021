@@ -42,7 +42,7 @@ Třídy, které budou simulovat dědičnou strukturu UI elementů. Od nejmenší
 ### 1. Eshop :credit_card:
 **Faktury** mají své **položky**, svého **vystavovatele** a **plátce**. Vystavovatel a plátce zcela jistě mohou mít společného předka. Možná může existovat více typů faktur nebo položek. Záleží na typu eshopu.
 
-Pokud si z výše uvedených projektů nemůžete vybrat, můžete mě kontaktovat s vlastním tématem.
+Pokud si z výše uvedených projektů nemůžete vybrat, můžete implementovat vlastní téma. Podmínky zůstávají stejné.
 
 ## Odevzdání
 
